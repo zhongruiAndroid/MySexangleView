@@ -52,7 +52,7 @@ public class SexangleView extends View {
 
 
     /********************六边形进度条*********************/
-    private int radius=60;
+    private int radius=1;
 
     private Paint sexanglePaint;
     private Path sexanglePath;
@@ -551,8 +551,8 @@ public class SexangleView extends View {
 
 
         paint.setStrokeWidth(sexangleWidth/2);
-
-        canvas.drawPath(path1,paint);
+//        paint.setStrokeJoin(Paint.Join.MITER);
+        canvas.drawPath(oldPath,paint);
 
         canvas.restore();
 
