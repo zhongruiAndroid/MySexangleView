@@ -4,12 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="top"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:paddingTop="10dp"
+    >
 
     <com.github.sexangle.SexangleView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:id="@+id/sv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        app:borderMargin="13dp"
+        app:borderColor="@color/colorPrimary"
+        app:borderWidth="2px"
+        app:borderRadius="10dp"
+        app:borderDashGap="3dp"
+        app:borderDashLength="15dp"
         />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        />
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:max="100" />
+
 </LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SexangleView">
+
+        <!--六边形圆角半径-->
+        <attr name="radius" format="dimension"></attr>
+        <!--六边形进度颜色-->
+        <attr name="sexangleColor" format="color"></attr>
+        <!--六边形颜色-->
+        <attr name="sexangleSecondColor" format="color"></attr>
+        <!--六边形线条宽度-->
+        <attr name="sexangleWidth" format="dimension"></attr>
+        <!--进度-->
+        <attr name="progress" format="float"></attr>
+        <!--总进度-->
+        <attr name="max" format="float"></attr>
+        <!--进度是否是圆角-->
+        <attr name="isRound" format="boolean"></attr>
+
+
+        <!--是否设置动画-->
+        <attr name="useAnimation" format="boolean"/>
+        <!--动画执行时间-->
+        <attr name="duration" format="integer"/>
+
+
+        <!--边框颜色-->
+        <attr name="borderColor" format="color"></attr>
+        <!--边框线条宽度-->
+        <attr name="borderWidth" format="dimension"></attr>
+        <!--虚线长度-->
+        <attr name="borderDashLength" format="dimension"></attr>
+        <!--虚线间隔-->
+        <attr name="borderDashGap" format="dimension"></attr>
+        <!--边框圆角-->
+        <attr name="borderRadius" format="dimension"></attr>
+
+        <attr name="borderPhase" format="float"></attr>
+
+
+        <!--边框margin-->
+        <attr name="borderMargin" format="dimension"></attr>
+        <attr name="borderMarginLeft" format="dimension"></attr>
+        <attr name="borderMarginTop" format="dimension"></attr>
+        <attr name="borderMarginRight" format="dimension"></attr>
+        <attr name="borderMarginBottom" format="dimension"></attr>
+
+    </declare-styleable>
+</resources>
