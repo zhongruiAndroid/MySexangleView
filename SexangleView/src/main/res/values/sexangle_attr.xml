@@ -14,7 +14,7 @@
         <attr name="progress" format="float"></attr>
         <!--总进度-->
         <attr name="max" format="float"></attr>
-        <!--进度是否是圆角-->
+        <!--进度条是否是圆角-->
         <attr name="isRound" format="boolean"></attr>
 
 
@@ -34,7 +34,7 @@
         <attr name="borderDashGap" format="dimension"></attr>
         <!--边框圆角-->
         <attr name="borderRadius" format="dimension"></attr>
-
+        <!--虚线偏移量-->
         <attr name="borderPhase" format="float"></attr>
 
 
