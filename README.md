@@ -55,7 +55,7 @@ sv.setOnProgressChangeInter(new SexangleView.OnProgressChangeInter() {
 <br/> 
 
 ```gradle
-compile 'com.github:SexangleView:1.0.0'
+compile 'com.github:SexangleView:版本号看上面'
 ```  
 <br/> 
 <br/> 
