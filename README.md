@@ -47,10 +47,17 @@ sv.setOnProgressChangeInter(new SexangleView.OnProgressChangeInter() {
 ```  
 
 <br/> 
-
-
+  
+  
+  
+  | 最新版本号 | [ ![Download](https://api.bintray.com/packages/zhongrui/mylibrary/MySexangleView/images/download.svg) ](https://bintray.com/zhongrui/mylibrary/MySexangleView/_latestVersion) |  
+|--------|----|
 <br/> 
 
 ```gradle
-compile 'com.github:SexangleView:版本号暂无'
-```
+compile 'com.github:SexangleView:1.0.0'
+```  
+<br/> 
+<br/> 
+
+#### Thanks https://github.com/HandGrab/MagicalProgress
